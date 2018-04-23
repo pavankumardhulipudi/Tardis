@@ -36,6 +36,7 @@ exports[`renders correctly 1`] = `
   >
     <TextInput
       allowFontScaling={true}
+      autoCapitalize="none"
       onChangeText={[Function]}
       placeholder="username"
       style={
@@ -61,8 +62,10 @@ exports[`renders correctly 1`] = `
   >
     <TextInput
       allowFontScaling={true}
+      autoCapitalize="none"
       onChangeText={[Function]}
       placeholder="password"
+      secureTextEntry={true}
       style={
         Object {
           "borderColor": "#000",
