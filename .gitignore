@@ -1,0 +1,8 @@
+#Node Modules
+node_modules
+
+#ios build
+ios/build
+
+#Test Coverage
+coverage
